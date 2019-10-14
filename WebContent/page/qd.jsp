@@ -85,7 +85,7 @@
         		}, {
         			display : "更新时间",
         			name : "updatetime",
-        			width : 100,
+        			width : 160,
         			type : "text",
         			align : "center"
         		} ],

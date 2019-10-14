@@ -40,6 +40,7 @@ public class NumsAdd extends HttpServlet {
 		if(end<0)end=0;
 		String nums=String.valueOf(end);
 		SQLiteJDBC.insert(name, "", "update", nums);
+		SQLiteJDBC.insertOperate(name,String.valueOf(aft),"add");//²Ù×÷¼ÇÂ¼
 		PrintWriter writer = response.getWriter();
 		writer.print(true);
 	}
